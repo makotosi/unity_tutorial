@@ -12,7 +12,7 @@ function Update () {
         Instantiate(ball, transform.position, transform.rotation);
         n++;
     }
-    if(n >= 10){
+    if(n > 10){
         Application.LoadLevel("GameOver");
     }
 }
